@@ -16,4 +16,4 @@ install:
 
 .PHONY: test
 test:
-	docker exec -i product_app_php_1 bash -c '/var/www/html/vendor/phpunit/phpunit/phpunit --configuration /var/www/html/phpunit.xml.dist /var/www/html/tests'
+	docker exec -i product_app_php_1 bash -c '/var/www/html/vendor/phpunit/phpunit/phpunit --configuration /var/www/html/phpunit.xml /var/www/html/tests'
